@@ -1,0 +1,114 @@
+/* style.css */
+
+/* Réinitialisation des marges et des rembourrages par défaut */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff6347; /* Couleur de fond vive */
+}
+
+/* Styles pour l'en-tête (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ombre subtile */
+}
+
+header h1 {
+    font-size: 48px; /* Taille de police plus grande */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+    text-transform: uppercase; /* Texte en majuscules */
+}
+
+header p {
+    font-size: 24px;
+}
+
+/* Styles pour la navigation (nav) */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #ff6347; /* Couleur de lien vive */
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px; /* Taille de police plus grande */
+    transition: color 0.3s ease-in-out; /* Animation de couleur au survol */
+}
+
+nav a:hover {
+    color: #fff; /* Couleur de lien au survol */
+}
+
+/* Styles pour la section principale (main) */
+main {
+    padding: 20px;
+}
+
+/* Styles pour la section de projets */
+#projets {
+    background-color: #f9f9f9; /* Couleur de fond plus claire */
+    padding: 30px;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+}
+
+.projet {
+    background-color: #fff; /* Couleur de fond des projets */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.projet h3 {
+    font-size: 28px;
+    color: #ff6347; /* Couleur de titre vive */
+}
+
+/* Styles pour la section d'expérience */
+#experience {
+    margin-top: 30px;
+}
+
+.experience {
+    background-color: #f9f9f9; /* Couleur de fond plus claire */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+}
+
+.experience h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styles pour le pied de page (footer) */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles pour les liens de réseaux sociaux */
+footer a {
+    color: #ff6347; /* Couleur de lien vive */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer a:hover {
+    color: #fff; /* Couleur de lien au survol */
+}
